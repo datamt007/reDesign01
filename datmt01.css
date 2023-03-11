@@ -216,9 +216,11 @@ label {
   border-radius: 0px;
 }
 .fourBorder{
-  border: 1px solid black!important;
+  border: 1px solid #2196f33b!important;
   border-radius: 0px!important;
+  box-shadow: 2px 4px #2196f33b;
 }
+
 .threeBorder{
   border-top:1px solid black!important;
   border-right: 1px solid black!important;
@@ -522,6 +524,14 @@ backdrop-filter: blur( 34px );
     letter-spacing: 0px;
     font-weight: 900!important;
   }
+  .baffinFont2{
+    font-size: 42px;
+    font-family: "Roboto", "Open Sans", sans-serif;
+    font-weight: 900!important;
+    text-transform: uppercase;
+    letter-spacing: -3px;
+    word-spacing: 10px;
+  }
   .randomCardBdy {
     margin-right: -70px;
     z-index: 1;
@@ -545,10 +555,11 @@ backdrop-filter: blur( 34px );
 }
 /* ENDS */
 @media (min-width: 992px) {
+  .daMT1{margin-top: 87px;}
   .oneSideImgAspetRatioLarge {
     height: 0;
     overflow: hidden;
-    padding-bottom: 124.55%;
+    padding-bottom: 51.55%;
   }
   .negativeLeft{
     margin-left: -80px;
@@ -775,8 +786,8 @@ backdrop-filter: blur( 34px );
     font-family: "Poppins", "Roboto", "Open Sans", sans-serif;
   }
   .fs_productHL{
-    font-size: 36px;
-    font-family: "Poppins", "Roboto", "Open Sans", sans-serif;
+    font-size: 32px;
+    font-family: "Roboto", "Open Sans", sans-serif;
   }
 } /* ipad */
 
@@ -913,8 +924,8 @@ backdrop-filter: blur( 34px );
 }
 @media (min-width: 576px) {
   .subHeader-base-font {
-    font-size: 15px;
-    font-family: "Poppins", "Roboto", "Open Sans", sans-serif;
+    font-size: 18px;
+    font-family:"Open Sans", sans-serif;
   }
 }
 @media (min-width: 768px) {
