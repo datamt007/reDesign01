@@ -1,214 +1,347 @@
-.text_intact {
-  word-break: keep-all;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&family=Open+Sans:wght@200;400;500;700&family=Roboto:wght@200;400;500;700&family=Baumans:wght@200;400;500;700&family=Anton&display=swap");
+.body {
+    font-family: Roboto, sans-serif;
+    color: #ffffff;
+    line-height: 170%;
+    font-size: 18px;
+}
+.btn008{    margin-top: 0!important;}
+
+@media (min-width: 350px) {
+    .dSlide{width: 0px;}
+    .readdd{
+        background: #e8e6e6;
+        width: 104%;
+        height: 100%;
+        margin-top:138%;
+        transform: rotate(-3deg);
+        position: absolute;
+    }
+    
+    .header {
+        color: #262626!important;
+    }
+    .hero-section {
+        position: relative;
+        overflow: hidden;
+        height: 79vh!important;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        background-image: url(../images/d.jpg);
+        background-position: 93% 65%!important;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }  
+    .cta-btn-group {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        margin-top: 0px!important;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }  
+    .dCont{
+        width: 100%!important;
+    }
+.wwd-col.wide {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%!important;
+    max-width: 100%!important;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.wwd-col {
+   
+        width: 100%!important;
+        max-width: 100%!important;
+}
+    
+    .h1.hero-title {
+    margin-bottom: 40px;
+    margin-left: -3px;
+    font-size: 42px!important;
+    line-height: 125%;
+    font-weight: 700;
+    text-transform: none;
 }
 
-/*font weight*/
-.fontW1 {
-  font-weight: 100 !important;
-}
-.fontW2 {
-  font-weight: 200 !important;
-}
-.fontW3 {
-  font-weight: 300 !important;
-}
-.fontW4 {
-  font-weight: 400 !important;
-}
-.fontW5 {
-  font-weight: 500 !important;
-}
-.fontW6 {
-  font-weight: 600 !important;
-}
-.fontW7 {
-  font-weight: 700 !important;
-}
-.fontW8 {
-  font-weight: 800 !important;
-}
-.fontW9 {
-  font-weight: 900 !important;
-}
-/*borders*/
-
-.fsC_none_brdr {
-  border: none !important;
-  border-radius: 0px !important;
-  border-top-left-radius: 0px !important;
-  border-top-right-radius: 0px !important;
-  border-bottom-left-radius: 0px !important;
-  border-bottom-right-radius: 0px !important;
-}
-/* TEXT OPACITY */
-.fsTextOpacity7 {
-  opacity: 0.7;
-}
-/* FONT STYLE */
-.textUpercase {
-  text-transform: uppercase;
-}
-.textCapitalize {
-  text-transform: capitalize;
-}
-.textLowercase {
-  text-transform: lowercase;
-}
-/*text alignment*/
-.a-left {
-  text-align: left;
-}
-.a-right {
-  text-align: right;
-}
-.a-center {
-  text-align: center;
-}
-.a-justify {
-  text-align: justify;
-}
-/* LINE HEIGHT */
-.fs_lineHeightForHLOnDesktop01 {
-  line-height: 1;
-}
-.imgContainer {
-  padding-bottom: 80%;
-  background-size: contain;
-  background-position: 50%;
-  background-color: white;
-  width: 100%;
-  background-repeat: no-repeat;
-}
-/*MODAL*/
-/* .modal-content {
-  margin-top: 25%;
-}
-.modal-dialog_fs {
-  max-width: 90% !important;
-}
-.modal-content_fs {
-  margin: 7% auto !important;
-  border: none !important;
-  border-radius: 0px !important;
-} */
-
-/* MODAL. Can be removed afterwards **/
-/* .miniModal_Body {
-  min-width: 250px;
-  width: auto;
-  max-width: 90% !important;
-} */
-/* Expand width as required */
-
-/* Actual contents should go in the below boxes. FOR the moment not used due to less time for testing **/
-.fs_contentBoxFull {
-  width: 100%;
-  max-height: 100%;
-  overflow: hidden;
-  margin-top: 80px;
-  margin-bottom: 80px;
-}
-.fs_contentBoxFull1 {
-  overflow-y: scroll;
-  scrollbar-width: none;
-  -ms-overflow-style: none;
-}
-/* Firefox */ /* IE 10+ */
-.fs_contentBoxFull1::-webkit-scrollbar {
-  /* WebKit */
-  width: 0;
-  height: 0;
-}
-.fs_contentBox60_R {
-  width: 60%;
-  max-height: 80%;
-  overflow: hidden;
-  margin-top: 80px;
-  margin-bottom: 80px;
+.new-wwe-icon {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 50px!important;
+    height: 50px!important;
+    margin-right: 10px;
+    margin-bottom: 27px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 0%;
+    background-color: #6ebf60!important;
+    BOX-SHADOW: 4PX 4PX 0px!important;
 }
 
-/* Make this box responsive. On mobile make it 90%*/
-
-.fs_contentBox60 {
-  width: 60%;
-  max-height: 80%;
-  overflow: hidden;
-}
-.fs_contentBox90 {
-  width: 90%;
-  max-height: 80%;
-  overflow: hidden;
-}
-/* max-width: 100%;*/
-
-.fs_contentBox601 {
-  overflow-y: scroll;
-  scrollbar-width: none;
-  -ms-overflow-style: none;
-}
-.fs_contentBox601::-webkit-scrollbar {
-  width: 0;
-  height: 0;
-}
-/* IE 10+ */ /* Firefox */ /* WebKit */
-
-/* height limiting boxes **/
-.fs_contentBox100H {
-  width: 100%;
-  height: 100px;
-  max-height: 100px;
-}
-/*overflow: hidden;*/
-
-/* Image in overlay  ***/
-.abImageHeader {
-  position: absolute;
-  background-size: cover;
-  background-position: 50%;
-  width: 100%;
-  height: 100%;
-  background-repeat: no-repeat;
-}
-/*background-position: top;*/
-
-.simpleOverlay {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0%;
-  left: 0%;
+.btn-fill.btn-outline {
+    border-color: #ffffff!important;
+    background-color: #6ebf60!important;
+    /* color: #e30c57; */
 }
 
-/* Must be wrapped inside bootstrap's container. Also make BS's container relative **/
-.fs_container {
-  position: relative;
-  left: 0px;
-  height: auto;
-  width: 100%;
-  overflow: hidden;
-  /* position: relative;
-  height: auto;
-  width: auto;
-  max-width: 1140px;
-  overflow: hidden;
-  margin-left: auto;
-  margin-right: auto; */
+.btn-fill {
+    COLOR: #FFF!important;
+    min-width: 180px;
+    margin-right: 15px;
+    margin-left: 15px;
+    padding: 14px 30px;
+    border: 2px solid #e30c57!important;
+    border-radius: 0px!important;
+    background-color: #e30c57!important;
+    -webkit-transition: all 350ms ease-in-out;
+    transition: all 350ms ease-in-out;
+    font-size: 17px!important;
+    line-height: 120%;
+    font-weight: 400!important;
+    text-align: center;
+    text-transform: uppercase!important;
 }
 
-/*relative position*/
-.fs_relative {
-  position: relative;
+.wwd-box {
+    height: 100%;
+    padding: 10px 13px;
+    border-radius: 0px!important;
+    background-color: #ea1760!important;
+    -webkit-transition: all 400ms ease;
+    transition: all 400ms ease;
+    cursor: pointer;
 }
 
-.fsT_m1000 {
-  min-height: 1000px;
-  position: relative;
+.pre.wwd {
+    font-size: 19px!important;
+    display: none;
 }
-.fsT_m750 {
-  min-height: 750px;
-  position: relative;
+
+.h4.wwd-title {
+    margin-bottom: 0px;
+    color: #ffffff!important;
+    font-size: 26px!important;
+    font-weight: 600!important;
 }
-.fsT_m650 {
-  min-height: 650px;
-  position: relative;
+
+.sec-sub-title {
+    font-size: 26px!important;
+    font-weight: 400!important;
+    letter-spacing: 0.25px;
 }
+
+.h2 {
+    margin-top: 0px;
+    margin-bottom: 14px;
+    font-size: 38px!important;
+    line-height: 110%;
+}
+
+    
+   
+
+}
+@media (min-width: 576px) {}
+@media (min-width: 768px) {}
+@media (min-width: 992px) {
+    .dSlide{width: 1000px;}
+    .sec-title.center {
+        text-align: left!important;
+    }
+    .readdd{
+        background: #e8e6e6;
+        width: 104%;
+        height: 100%;
+        margin-top: 36%;
+        transform: rotate(-3deg);
+        position: absolute;
+    }
+    .menu-block {
+        margin-right: 0!important;
+        margin-left: auto!important;
+    }
+    .header {
+        color: #262626!important;
+    }
+    .hero-section {
+        position: relative;
+        overflow: hidden;
+        height: 79vh!important;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        background-image: url(../images/d.jpg);
+        background-position: 50% 100%!important;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }  
+    .cta-btn-group {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        margin-top: 0px!important;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    } 
+    .dCont{
+        width: 90%!important;
+    } 
+.wwd-col.wide {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%!important;
+    max-width: 100%!important;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: start;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.wwd-col {
+    width: 66%!important;
+    max-width: 25%!important;
+    margin-bottom: 26px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+    
+    .h1.hero-title {
+    margin-bottom: 40px;
+    margin-left: -3px;
+    font-size: 48px!important;
+    line-height: 125%;
+    font-weight: 700;
+    text-transform: none;
+}
+
+.new-wwe-icon {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 50px!important;
+    height: 50px!important;
+    margin-right: 10px;
+    margin-bottom: 27px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 0%;
+    background-color: #6ebf60!important;
+    BOX-SHADOW: 4PX 4PX 0px!important;
+}
+
+.btn-fill.btn-outline {
+    border-color: #ffffff!important;
+    background-color: #6ebf60!important;
+    /* color: #e30c57; */
+}
+
+.btn-fill {
+    COLOR: #FFF!important;
+    min-width: 180px;
+    margin-right: 15px;
+    margin-left: 15px;
+    padding: 14px 30px;
+    border: 2px solid #e30c57!important;
+    border-radius: 0px!important;
+    background-color: #e30c57!important;
+    -webkit-transition: all 350ms ease-in-out;
+    transition: all 350ms ease-in-out;
+    font-size: 17px!important;
+    line-height: 120%;
+    font-weight: 400!important;
+    text-align: center;
+    text-transform: uppercase!important;
+}
+
+.wwd-box {
+    height: 100%;
+    padding: 10px 13px;
+    border-radius: 0px!important;
+    background-color: #ea1760!important;
+    -webkit-transition: all 400ms ease;
+    transition: all 400ms ease;
+    cursor: pointer;
+    text-align: left;
+}
+
+.pre.wwd {
+    font-size: 19px!important;
+    display: none;
+}
+.flex {
+    margin-bottom: 0px!important;}
+
+.h4.wwd-title {
+    margin-bottom: 0px
+;
+    color: #ffffff!important;
+    font-size: 26px!important;
+    font-weight: 600!important;
+}
+
+.sec-sub-title {
+    font-size: 26px!important;
+    font-weight: 600!important;
+    letter-spacing: 0.25px;
+}
+
+.h2 {
+    margin-top: 0px;
+    margin-bottom: 14px;
+    font-size: 42px!important;
+    line-height: 110%;
+}
+
+    
+    
+}
+@media (min-width: 1200px) {}
