@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&family=Open+Sans:wght@200;400;500;700&family=Roboto:wght@200;400;500;700&family=Baumans:wght@200;400;500;700&family=Anton&display=swap");
 .body {
-    font-family: Roboto, sans-serif;
+    font-family: Roboto, sans-serif!important;
     color: #ffffff;
     line-height: 170%;
     font-size: 18px;
@@ -29,7 +29,7 @@
         -webkit-align-items: center;
         -ms-flex-align: center;
         align-items: center;
-        background-image: url(../images/d.jpg);
+        background-image: url(/images/d.jpg)!important;
         background-position: 93% 65%!important;
         background-size: cover;
         background-repeat: no-repeat;
@@ -58,7 +58,7 @@
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
-    justify-content: center;
+    justify-content: center!important;
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
@@ -132,7 +132,7 @@
 
 .wwd-box {
     height: 100%;
-    padding: 10px 13px;
+    padding: 10px 13px!important;
     border-radius: 0px!important;
     background-color: #ea1760!important;
     -webkit-transition: all 400ms ease;
@@ -199,7 +199,7 @@
         -webkit-align-items: center;
         -ms-flex-align: center;
         align-items: center;
-        background-image: url(../images/d.jpg);
+        background-image: url(/images/d.jpg)!important;
         background-position: 50% 100%!important;
         background-size: cover;
         background-repeat: no-repeat;
@@ -228,7 +228,7 @@
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
-    justify-content: start;
+    justify-content: start!important;
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
